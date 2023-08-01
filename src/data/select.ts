@@ -1,8 +1,9 @@
 import { Option } from "../type";
+
 export const optionsSection: Option[] = [
-  { value: "hot", label: "most viral" },
-  { value: "user", label: "user submitted" },
-  { value: "top", label: "highest scoring" },
+  { value: "hot", label: "Viral" },
+  { value: "user", label: "User" },
+  { value: "top", label: "Highest" },
 ];
 
 export const optionsSort: Option[] = [

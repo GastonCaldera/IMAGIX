@@ -10,11 +10,11 @@ export default function GridImages({ data }: GridImagesProps) {
   }, []);
   return (
     <div
-      className="my-8 lg:columns-4 md:columns-3 sm:columns-2 mb-8"
+      className="my-8 sm:columns-1 md:columns-3 lg:columns-4 mb-8 "
       data-aos="fade-up"
       data-aos-delay="1200"
     >
-      {data.map((item: DataImageType, index: number) => {
+      {data?.map((item: DataImageType, index: number) => {
         if (item?.images?.length === undefined) {
           return null;
         }

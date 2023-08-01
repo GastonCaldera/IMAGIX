@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 export type ModalProps = {
-  showModal: boolean;
-  setShowModal: (show: boolean) => void;
+  isOpen: boolean;
+  onClose: () => void;
   children: ReactNode;
 };

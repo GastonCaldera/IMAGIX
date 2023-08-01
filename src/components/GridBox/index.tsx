@@ -1,17 +1,12 @@
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 import { GridBoxProps } from "../../type";
 import {
   ChevronUpIcon,
   EyeIcon,
   ChatBubbleLeftIcon,
 } from "@heroicons/react/24/solid";
-const AOS = require("aos");
 
 export default function GridBox({ index, data }: GridBoxProps) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div
       className={`cursor-pointer hover:brightness-110 w-full bg-[#474a51] drop-shadow-lg rounded-b break-inside-avoid-column ${

@@ -1,6 +1,8 @@
 import { ChangeEvent } from "react";
+import { SectionType, SortType } from "./getRequestGalleryType";
+
 export type Option = {
-  value: string;
+  value: SortType | SectionType;
   label: string;
 };
 

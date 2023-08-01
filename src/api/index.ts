@@ -7,7 +7,7 @@ export const getRequestGallery = async (
   window: WindowType,
   page: PageType
 ): Promise<AxiosResponse | { data: any; status: number; success: boolean }> => {
-  const url = `http://localhost:4000/api/gallery`;
+  const url = `http://localhost:4000/api/gallery?section=${section}&sort=${sort}&window=${window}&page=${page}`;
   try {
     const response = await axios.get(url);
     return response.data;

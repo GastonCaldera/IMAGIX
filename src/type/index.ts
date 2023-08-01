@@ -4,3 +4,4 @@ export * from "./imgType";
 export * from "./gridBoxProps";
 export * from "./modalProps";
 export * from "./selectProps";
+export * from "./header"

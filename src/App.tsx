@@ -1,12 +1,8 @@
-import "./App.css";
-import Dashboard from "./container/Dashboard";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes";
 
 function App() {
-  return (
-    <div className="App">
-      <Dashboard />
-    </div>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;
