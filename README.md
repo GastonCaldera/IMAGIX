@@ -5,7 +5,7 @@ IMAGIX is a simple and user-friendly image viewer app that allows you to browse 
 ## Features
 
 - Browse Imgur's vast library of images
-- View single images for a better experience
+- View individual images for a better experience
 
 ### Install library
 ```bash
