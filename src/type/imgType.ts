@@ -1,6 +1,7 @@
 export type DataImageType = {
   id: string;
   title: string;
+  description: string;
   downs: number;
   ups: number;
   comment_count: number;

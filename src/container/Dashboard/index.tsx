@@ -6,7 +6,7 @@ import { DataImageType } from "../../type";
 import Header from "../../components/Header";
 import { SectionType, SortType } from "../../type";
 
-const Dashboard = () => {
+const DashboardContainer = () => {
   const [selectedOptionSection, setSelectedOptionSection] =
     useState<SectionType>("hot");
   const [selectedOptionSort, setSelectedOptionSort] =
@@ -36,6 +36,8 @@ const Dashboard = () => {
         setSelectedOptionSection={setSelectedOptionSection}
         selectedOptionSort={selectedOptionSort}
         setSelectedOptionSort={setSelectedOptionSort}
+        showSelect={true}
+        showGoBack={false}
       />
       <div className="container lg mx-auto">
         <Title />
@@ -47,4 +49,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default DashboardContainer;
